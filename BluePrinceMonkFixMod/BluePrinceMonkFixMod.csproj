@@ -1,0 +1,336 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Reference Include="Assembly-CSharp">
+      <HintPath>..\..\..\..\..\..\Program Files (x86)\Steam\steamapps\common\Blue Prince\MelonLoader\Il2CppAssemblies\Assembly-CSharp.dll</HintPath>
+    </Reference>
+    <Reference Include="Assembly-CSharp-firstpass">
+      <HintPath>..\..\..\..\..\..\Program Files (x86)\Steam\steamapps\common\Blue Prince\MelonLoader\Il2CppAssemblies\Assembly-CSharp-firstpass.dll</HintPath>
+    </Reference>
+    <Reference Include="Il2Cppcom.rlabrecque.steamworks.net">
+      <HintPath>..\..\..\..\..\..\Program Files (x86)\Steam\steamapps\common\Blue Prince\MelonLoader\Il2CppAssemblies\Il2Cppcom.rlabrecque.steamworks.net.dll</HintPath>
+    </Reference>
+    <Reference Include="Il2CppConditionalExpression">
+      <HintPath>..\..\..\..\..\..\Program Files (x86)\Steam\steamapps\common\Blue Prince\MelonLoader\Il2CppAssemblies\Il2CppConditionalExpression.dll</HintPath>
+    </Reference>
+    <Reference Include="Il2CppDOTween">
+      <HintPath>..\..\..\..\..\..\Program Files (x86)\Steam\steamapps\common\Blue Prince\MelonLoader\Il2CppAssemblies\Il2CppDOTween.dll</HintPath>
+    </Reference>
+    <Reference Include="Il2CppDOTween.Modules">
+      <HintPath>..\..\..\..\..\..\Program Files (x86)\Steam\steamapps\common\Blue Prince\MelonLoader\Il2CppAssemblies\Il2CppDOTween.Modules.dll</HintPath>
+    </Reference>
+    <Reference Include="Il2CppFluffyUnderware.DevTools">
+      <HintPath>..\..\..\..\..\..\Program Files (x86)\Steam\steamapps\common\Blue Prince\MelonLoader\Il2CppAssemblies\Il2CppFluffyUnderware.DevTools.dll</HintPath>
+    </Reference>
+    <Reference Include="Il2CppFurySdkProjectUtils">
+      <HintPath>..\..\..\..\..\..\Program Files (x86)\Steam\steamapps\common\Blue Prince\MelonLoader\Il2CppAssemblies\Il2CppFurySdkProjectUtils.dll</HintPath>
+    </Reference>
+    <Reference Include="Il2CppFuryStudios.FuryBuildSystem">
+      <HintPath>..\..\..\..\..\..\Program Files (x86)\Steam\steamapps\common\Blue Prince\MelonLoader\Il2CppAssemblies\Il2CppFuryStudios.FuryBuildSystem.dll</HintPath>
+    </Reference>
+    <Reference Include="Il2CppFuryStudios.FurySDK">
+      <HintPath>..\..\..\..\..\..\Program Files (x86)\Steam\steamapps\common\Blue Prince\MelonLoader\Il2CppAssemblies\Il2CppFuryStudios.FurySDK.dll</HintPath>
+    </Reference>
+    <Reference Include="Il2CppFuryStudios.FurySDK.Internal">
+      <HintPath>..\..\..\..\..\..\Program Files (x86)\Steam\steamapps\common\Blue Prince\MelonLoader\Il2CppAssemblies\Il2CppFuryStudios.FurySDK.Internal.dll</HintPath>
+    </Reference>
+    <Reference Include="Il2CppFuryStudios.FurySDK.Noop">
+      <HintPath>..\..\..\..\..\..\Program Files (x86)\Steam\steamapps\common\Blue Prince\MelonLoader\Il2CppAssemblies\Il2CppFuryStudios.FurySDK.Noop.dll</HintPath>
+    </Reference>
+    <Reference Include="Il2CppFuryStudios.FurySDK.StandalonePC">
+      <HintPath>..\..\..\..\..\..\Program Files (x86)\Steam\steamapps\common\Blue Prince\MelonLoader\Il2CppAssemblies\Il2CppFuryStudios.FurySDK.StandalonePC.dll</HintPath>
+    </Reference>
+    <Reference Include="Il2CppFuryStudios.FurySDK.Steam">
+      <HintPath>..\..\..\..\..\..\Program Files (x86)\Steam\steamapps\common\Blue Prince\MelonLoader\Il2CppAssemblies\Il2CppFuryStudios.FurySDK.Steam.dll</HintPath>
+    </Reference>
+    <Reference Include="Il2CppInterop.Common">
+      <HintPath>..\..\..\..\..\..\Program Files (x86)\Steam\steamapps\common\Blue Prince\MelonLoader\net6\Il2CppInterop.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="Il2CppInterop.Runtime">
+      <HintPath>..\..\..\..\..\..\Program Files (x86)\Steam\steamapps\common\Blue Prince\MelonLoader\net6\Il2CppInterop.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="Il2CppLibTessDotNet">
+      <HintPath>..\..\..\..\..\..\Program Files (x86)\Steam\steamapps\common\Blue Prince\MelonLoader\Il2CppAssemblies\Il2CppLibTessDotNet.dll</HintPath>
+    </Reference>
+    <Reference Include="Il2CppMono.Security">
+      <HintPath>..\..\..\..\..\..\Program Files (x86)\Steam\steamapps\common\Blue Prince\MelonLoader\Il2CppAssemblies\Il2CppMono.Security.dll</HintPath>
+    </Reference>
+    <Reference Include="Il2Cppmscorlib">
+      <HintPath>..\..\..\..\..\..\Program Files (x86)\Steam\steamapps\common\Blue Prince\MelonLoader\Il2CppAssemblies\Il2Cppmscorlib.dll</HintPath>
+    </Reference>
+    <Reference Include="Il2CppPlayMaker">
+      <HintPath>..\..\..\..\..\..\Program Files (x86)\Steam\steamapps\common\Blue Prince\MelonLoader\Il2CppAssemblies\Il2CppPlayMaker.dll</HintPath>
+    </Reference>
+    <Reference Include="Il2CppRewired_Core">
+      <HintPath>..\..\..\..\..\..\Program Files (x86)\Steam\steamapps\common\Blue Prince\MelonLoader\Il2CppAssemblies\Il2CppRewired_Core.dll</HintPath>
+    </Reference>
+    <Reference Include="Il2CppRewired_Windows">
+      <HintPath>..\..\..\..\..\..\Program Files (x86)\Steam\steamapps\common\Blue Prince\MelonLoader\Il2CppAssemblies\Il2CppRewired_Windows.dll</HintPath>
+    </Reference>
+    <Reference Include="Il2CppRewired_Windows_Functions">
+      <HintPath>..\..\..\..\..\..\Program Files (x86)\Steam\steamapps\common\Blue Prince\MelonLoader\Il2CppAssemblies\Il2CppRewired_Windows_Functions.dll</HintPath>
+    </Reference>
+    <Reference Include="Il2CppSoundeR">
+      <HintPath>..\..\..\..\..\..\Program Files (x86)\Steam\steamapps\common\Blue Prince\MelonLoader\Il2CppAssemblies\Il2CppSoundeR.dll</HintPath>
+    </Reference>
+    <Reference Include="Il2CppSystem">
+      <HintPath>..\..\..\..\..\..\Program Files (x86)\Steam\steamapps\common\Blue Prince\MelonLoader\Il2CppAssemblies\Il2CppSystem.dll</HintPath>
+    </Reference>
+    <Reference Include="Il2CppSystem.Configuration">
+      <HintPath>..\..\..\..\..\..\Program Files (x86)\Steam\steamapps\common\Blue Prince\MelonLoader\Il2CppAssemblies\Il2CppSystem.Configuration.dll</HintPath>
+    </Reference>
+    <Reference Include="Il2CppSystem.Core">
+      <HintPath>..\..\..\..\..\..\Program Files (x86)\Steam\steamapps\common\Blue Prince\MelonLoader\Il2CppAssemblies\Il2CppSystem.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="Il2CppSystem.Numerics">
+      <HintPath>..\..\..\..\..\..\Program Files (x86)\Steam\steamapps\common\Blue Prince\MelonLoader\Il2CppAssemblies\Il2CppSystem.Numerics.dll</HintPath>
+    </Reference>
+    <Reference Include="Il2CppSystem.Xml">
+      <HintPath>..\..\..\..\..\..\Program Files (x86)\Steam\steamapps\common\Blue Prince\MelonLoader\Il2CppAssemblies\Il2CppSystem.Xml.dll</HintPath>
+    </Reference>
+    <Reference Include="Il2CppToolBuddy.ArraysPooling">
+      <HintPath>..\..\..\..\..\..\Program Files (x86)\Steam\steamapps\common\Blue Prince\MelonLoader\Il2CppAssemblies\Il2CppToolBuddy.ArraysPooling.dll</HintPath>
+    </Reference>
+    <Reference Include="Il2CppToolBuddy.Curvy">
+      <HintPath>..\..\..\..\..\..\Program Files (x86)\Steam\steamapps\common\Blue Prince\MelonLoader\Il2CppAssemblies\Il2CppToolBuddy.Curvy.dll</HintPath>
+    </Reference>
+    <Reference Include="Il2CppToolBuddy.Dependencies.VectorGraphics">
+      <HintPath>..\..\..\..\..\..\Program Files (x86)\Steam\steamapps\common\Blue Prince\MelonLoader\Il2CppAssemblies\Il2CppToolBuddy.Dependencies.VectorGraphics.dll</HintPath>
+    </Reference>
+    <Reference Include="Il2CppVideosDatabase">
+      <HintPath>..\..\..\..\..\..\Program Files (x86)\Steam\steamapps\common\Blue Prince\MelonLoader\Il2CppAssemblies\Il2CppVideosDatabase.dll</HintPath>
+    </Reference>
+    <Reference Include="Il2Cpp__Generated">
+      <HintPath>..\..\..\..\..\..\Program Files (x86)\Steam\steamapps\common\Blue Prince\MelonLoader\Il2CppAssemblies\Il2Cpp__Generated.dll</HintPath>
+    </Reference>
+    <Reference Include="MelonLoader">
+      <HintPath>..\..\..\..\..\..\Program Files (x86)\Steam\steamapps\common\Blue Prince\MelonLoader\net6\MelonLoader.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.2D.PixelPerfect">
+      <HintPath>..\..\..\..\..\..\Program Files (x86)\Steam\steamapps\common\Blue Prince\MelonLoader\Il2CppAssemblies\Unity.2D.PixelPerfect.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Addressables">
+      <HintPath>..\..\..\..\..\..\Program Files (x86)\Steam\steamapps\common\Blue Prince\MelonLoader\Il2CppAssemblies\Unity.Addressables.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.InputSystem">
+      <HintPath>..\..\..\..\..\..\Program Files (x86)\Steam\steamapps\common\Blue Prince\MelonLoader\Il2CppAssemblies\Unity.InputSystem.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.InputSystem.ForUI">
+      <HintPath>..\..\..\..\..\..\Program Files (x86)\Steam\steamapps\common\Blue Prince\MelonLoader\Il2CppAssemblies\Unity.InputSystem.ForUI.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Microsoft.GDK.Tools">
+      <HintPath>..\..\..\..\..\..\Program Files (x86)\Steam\steamapps\common\Blue Prince\MelonLoader\Il2CppAssemblies\Unity.Microsoft.GDK.Tools.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Postprocessing.Runtime">
+      <HintPath>..\..\..\..\..\..\Program Files (x86)\Steam\steamapps\common\Blue Prince\MelonLoader\Il2CppAssemblies\Unity.Postprocessing.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.ResourceManager">
+      <HintPath>..\..\..\..\..\..\Program Files (x86)\Steam\steamapps\common\Blue Prince\MelonLoader\Il2CppAssemblies\Unity.ResourceManager.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.TextMeshPro">
+      <HintPath>..\..\..\..\..\..\Program Files (x86)\Steam\steamapps\common\Blue Prince\MelonLoader\Il2CppAssemblies\Unity.TextMeshPro.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine">
+      <HintPath>..\..\..\..\..\..\Program Files (x86)\Steam\steamapps\common\Blue Prince\MelonLoader\Il2CppAssemblies\UnityEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.AccessibilityModule">
+      <HintPath>..\..\..\..\..\..\Program Files (x86)\Steam\steamapps\common\Blue Prince\MelonLoader\Il2CppAssemblies\UnityEngine.AccessibilityModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.AIModule">
+      <HintPath>..\..\..\..\..\..\Program Files (x86)\Steam\steamapps\common\Blue Prince\MelonLoader\Il2CppAssemblies\UnityEngine.AIModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.AndroidJNIModule">
+      <HintPath>..\..\..\..\..\..\Program Files (x86)\Steam\steamapps\common\Blue Prince\MelonLoader\Il2CppAssemblies\UnityEngine.AndroidJNIModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.AnimationModule">
+      <HintPath>..\..\..\..\..\..\Program Files (x86)\Steam\steamapps\common\Blue Prince\MelonLoader\Il2CppAssemblies\UnityEngine.AnimationModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.ARModule">
+      <HintPath>..\..\..\..\..\..\Program Files (x86)\Steam\steamapps\common\Blue Prince\MelonLoader\Il2CppAssemblies\UnityEngine.ARModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.AssetBundleModule">
+      <HintPath>..\..\..\..\..\..\Program Files (x86)\Steam\steamapps\common\Blue Prince\MelonLoader\Il2CppAssemblies\UnityEngine.AssetBundleModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.AudioModule">
+      <HintPath>..\..\..\..\..\..\Program Files (x86)\Steam\steamapps\common\Blue Prince\MelonLoader\Il2CppAssemblies\UnityEngine.AudioModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.ClothModule">
+      <HintPath>..\..\..\..\..\..\Program Files (x86)\Steam\steamapps\common\Blue Prince\MelonLoader\Il2CppAssemblies\UnityEngine.ClothModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.CoreModule">
+      <HintPath>..\..\..\..\..\..\Program Files (x86)\Steam\steamapps\common\Blue Prince\MelonLoader\Il2CppAssemblies\UnityEngine.CoreModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.CrashReportingModule">
+      <HintPath>..\..\..\..\..\..\Program Files (x86)\Steam\steamapps\common\Blue Prince\MelonLoader\Il2CppAssemblies\UnityEngine.CrashReportingModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.DirectorModule">
+      <HintPath>..\..\..\..\..\..\Program Files (x86)\Steam\steamapps\common\Blue Prince\MelonLoader\Il2CppAssemblies\UnityEngine.DirectorModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.DSPGraphModule">
+      <HintPath>..\..\..\..\..\..\Program Files (x86)\Steam\steamapps\common\Blue Prince\MelonLoader\Il2CppAssemblies\UnityEngine.DSPGraphModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.GameCenterModule">
+      <HintPath>..\..\..\..\..\..\Program Files (x86)\Steam\steamapps\common\Blue Prince\MelonLoader\Il2CppAssemblies\UnityEngine.GameCenterModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.GIModule">
+      <HintPath>..\..\..\..\..\..\Program Files (x86)\Steam\steamapps\common\Blue Prince\MelonLoader\Il2CppAssemblies\UnityEngine.GIModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.GridModule">
+      <HintPath>..\..\..\..\..\..\Program Files (x86)\Steam\steamapps\common\Blue Prince\MelonLoader\Il2CppAssemblies\UnityEngine.GridModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.HotReloadModule">
+      <HintPath>..\..\..\..\..\..\Program Files (x86)\Steam\steamapps\common\Blue Prince\MelonLoader\Il2CppAssemblies\UnityEngine.HotReloadModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.ImageConversionModule">
+      <HintPath>..\..\..\..\..\..\Program Files (x86)\Steam\steamapps\common\Blue Prince\MelonLoader\Il2CppAssemblies\UnityEngine.ImageConversionModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.IMGUIModule">
+      <HintPath>..\..\..\..\..\..\Program Files (x86)\Steam\steamapps\common\Blue Prince\MelonLoader\Il2CppAssemblies\UnityEngine.IMGUIModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.InputLegacyModule">
+      <HintPath>..\..\..\..\..\..\Program Files (x86)\Steam\steamapps\common\Blue Prince\MelonLoader\Il2CppAssemblies\UnityEngine.InputLegacyModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.InputModule">
+      <HintPath>..\..\..\..\..\..\Program Files (x86)\Steam\steamapps\common\Blue Prince\MelonLoader\Il2CppAssemblies\UnityEngine.InputModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.JSONSerializeModule">
+      <HintPath>..\..\..\..\..\..\Program Files (x86)\Steam\steamapps\common\Blue Prince\MelonLoader\Il2CppAssemblies\UnityEngine.JSONSerializeModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.LocalizationModule">
+      <HintPath>..\..\..\..\..\..\Program Files (x86)\Steam\steamapps\common\Blue Prince\MelonLoader\Il2CppAssemblies\UnityEngine.LocalizationModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.ParticleSystemModule">
+      <HintPath>..\..\..\..\..\..\Program Files (x86)\Steam\steamapps\common\Blue Prince\MelonLoader\Il2CppAssemblies\UnityEngine.ParticleSystemModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.PerformanceReportingModule">
+      <HintPath>..\..\..\..\..\..\Program Files (x86)\Steam\steamapps\common\Blue Prince\MelonLoader\Il2CppAssemblies\UnityEngine.PerformanceReportingModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.Physics2DModule">
+      <HintPath>..\..\..\..\..\..\Program Files (x86)\Steam\steamapps\common\Blue Prince\MelonLoader\Il2CppAssemblies\UnityEngine.Physics2DModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.PhysicsModule">
+      <HintPath>..\..\..\..\..\..\Program Files (x86)\Steam\steamapps\common\Blue Prince\MelonLoader\Il2CppAssemblies\UnityEngine.PhysicsModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.ProfilerModule">
+      <HintPath>..\..\..\..\..\..\Program Files (x86)\Steam\steamapps\common\Blue Prince\MelonLoader\Il2CppAssemblies\UnityEngine.ProfilerModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule">
+      <HintPath>..\..\..\..\..\..\Program Files (x86)\Steam\steamapps\common\Blue Prince\MelonLoader\Il2CppAssemblies\UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.ScreenCaptureModule">
+      <HintPath>..\..\..\..\..\..\Program Files (x86)\Steam\steamapps\common\Blue Prince\MelonLoader\Il2CppAssemblies\UnityEngine.ScreenCaptureModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.SharedInternalsModule">
+      <HintPath>..\..\..\..\..\..\Program Files (x86)\Steam\steamapps\common\Blue Prince\MelonLoader\Il2CppAssemblies\UnityEngine.SharedInternalsModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.SpriteMaskModule">
+      <HintPath>..\..\..\..\..\..\Program Files (x86)\Steam\steamapps\common\Blue Prince\MelonLoader\Il2CppAssemblies\UnityEngine.SpriteMaskModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.SpriteShapeModule">
+      <HintPath>..\..\..\..\..\..\Program Files (x86)\Steam\steamapps\common\Blue Prince\MelonLoader\Il2CppAssemblies\UnityEngine.SpriteShapeModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.StreamingModule">
+      <HintPath>..\..\..\..\..\..\Program Files (x86)\Steam\steamapps\common\Blue Prince\MelonLoader\Il2CppAssemblies\UnityEngine.StreamingModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.SubstanceModule">
+      <HintPath>..\..\..\..\..\..\Program Files (x86)\Steam\steamapps\common\Blue Prince\MelonLoader\Il2CppAssemblies\UnityEngine.SubstanceModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.SubsystemsModule">
+      <HintPath>..\..\..\..\..\..\Program Files (x86)\Steam\steamapps\common\Blue Prince\MelonLoader\Il2CppAssemblies\UnityEngine.SubsystemsModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.TerrainModule">
+      <HintPath>..\..\..\..\..\..\Program Files (x86)\Steam\steamapps\common\Blue Prince\MelonLoader\Il2CppAssemblies\UnityEngine.TerrainModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.TerrainPhysicsModule">
+      <HintPath>..\..\..\..\..\..\Program Files (x86)\Steam\steamapps\common\Blue Prince\MelonLoader\Il2CppAssemblies\UnityEngine.TerrainPhysicsModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.TextCoreFontEngineModule">
+      <HintPath>..\..\..\..\..\..\Program Files (x86)\Steam\steamapps\common\Blue Prince\MelonLoader\Il2CppAssemblies\UnityEngine.TextCoreFontEngineModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.TextCoreTextEngineModule">
+      <HintPath>..\..\..\..\..\..\Program Files (x86)\Steam\steamapps\common\Blue Prince\MelonLoader\Il2CppAssemblies\UnityEngine.TextCoreTextEngineModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.TextRenderingModule">
+      <HintPath>..\..\..\..\..\..\Program Files (x86)\Steam\steamapps\common\Blue Prince\MelonLoader\Il2CppAssemblies\UnityEngine.TextRenderingModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.TilemapModule">
+      <HintPath>..\..\..\..\..\..\Program Files (x86)\Steam\steamapps\common\Blue Prince\MelonLoader\Il2CppAssemblies\UnityEngine.TilemapModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.TLSModule">
+      <HintPath>..\..\..\..\..\..\Program Files (x86)\Steam\steamapps\common\Blue Prince\MelonLoader\Il2CppAssemblies\UnityEngine.TLSModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UI">
+      <HintPath>..\..\..\..\..\..\Program Files (x86)\Steam\steamapps\common\Blue Prince\MelonLoader\Il2CppAssemblies\UnityEngine.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UIElementsModule">
+      <HintPath>..\..\..\..\..\..\Program Files (x86)\Steam\steamapps\common\Blue Prince\MelonLoader\Il2CppAssemblies\UnityEngine.UIElementsModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UIElementsNativeModule">
+      <HintPath>..\..\..\..\..\..\Program Files (x86)\Steam\steamapps\common\Blue Prince\MelonLoader\Il2CppAssemblies\UnityEngine.UIElementsNativeModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UIModule">
+      <HintPath>..\..\..\..\..\..\Program Files (x86)\Steam\steamapps\common\Blue Prince\MelonLoader\Il2CppAssemblies\UnityEngine.UIModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UmbraModule">
+      <HintPath>..\..\..\..\..\..\Program Files (x86)\Steam\steamapps\common\Blue Prince\MelonLoader\Il2CppAssemblies\UnityEngine.UmbraModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UNETModule">
+      <HintPath>..\..\..\..\..\..\Program Files (x86)\Steam\steamapps\common\Blue Prince\MelonLoader\Il2CppAssemblies\UnityEngine.UNETModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UnityAnalyticsCommonModule">
+      <HintPath>..\..\..\..\..\..\Program Files (x86)\Steam\steamapps\common\Blue Prince\MelonLoader\Il2CppAssemblies\UnityEngine.UnityAnalyticsCommonModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UnityAnalyticsModule">
+      <HintPath>..\..\..\..\..\..\Program Files (x86)\Steam\steamapps\common\Blue Prince\MelonLoader\Il2CppAssemblies\UnityEngine.UnityAnalyticsModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UnityConnectModule">
+      <HintPath>..\..\..\..\..\..\Program Files (x86)\Steam\steamapps\common\Blue Prince\MelonLoader\Il2CppAssemblies\UnityEngine.UnityConnectModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UnityCurlModule">
+      <HintPath>..\..\..\..\..\..\Program Files (x86)\Steam\steamapps\common\Blue Prince\MelonLoader\Il2CppAssemblies\UnityEngine.UnityCurlModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UnityTestProtocolModule">
+      <HintPath>..\..\..\..\..\..\Program Files (x86)\Steam\steamapps\common\Blue Prince\MelonLoader\Il2CppAssemblies\UnityEngine.UnityTestProtocolModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UnityWebRequestAssetBundleModule">
+      <HintPath>..\..\..\..\..\..\Program Files (x86)\Steam\steamapps\common\Blue Prince\MelonLoader\Il2CppAssemblies\UnityEngine.UnityWebRequestAssetBundleModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UnityWebRequestAudioModule">
+      <HintPath>..\..\..\..\..\..\Program Files (x86)\Steam\steamapps\common\Blue Prince\MelonLoader\Il2CppAssemblies\UnityEngine.UnityWebRequestAudioModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UnityWebRequestModule">
+      <HintPath>..\..\..\..\..\..\Program Files (x86)\Steam\steamapps\common\Blue Prince\MelonLoader\Il2CppAssemblies\UnityEngine.UnityWebRequestModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UnityWebRequestTextureModule">
+      <HintPath>..\..\..\..\..\..\Program Files (x86)\Steam\steamapps\common\Blue Prince\MelonLoader\Il2CppAssemblies\UnityEngine.UnityWebRequestTextureModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UnityWebRequestWWWModule">
+      <HintPath>..\..\..\..\..\..\Program Files (x86)\Steam\steamapps\common\Blue Prince\MelonLoader\Il2CppAssemblies\UnityEngine.UnityWebRequestWWWModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.VehiclesModule">
+      <HintPath>..\..\..\..\..\..\Program Files (x86)\Steam\steamapps\common\Blue Prince\MelonLoader\Il2CppAssemblies\UnityEngine.VehiclesModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.VFXModule">
+      <HintPath>..\..\..\..\..\..\Program Files (x86)\Steam\steamapps\common\Blue Prince\MelonLoader\Il2CppAssemblies\UnityEngine.VFXModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.VideoModule">
+      <HintPath>..\..\..\..\..\..\Program Files (x86)\Steam\steamapps\common\Blue Prince\MelonLoader\Il2CppAssemblies\UnityEngine.VideoModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.VRModule">
+      <HintPath>..\..\..\..\..\..\Program Files (x86)\Steam\steamapps\common\Blue Prince\MelonLoader\Il2CppAssemblies\UnityEngine.VRModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.WindModule">
+      <HintPath>..\..\..\..\..\..\Program Files (x86)\Steam\steamapps\common\Blue Prince\MelonLoader\Il2CppAssemblies\UnityEngine.WindModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.XRModule">
+      <HintPath>..\..\..\..\..\..\Program Files (x86)\Steam\steamapps\common\Blue Prince\MelonLoader\Il2CppAssemblies\UnityEngine.XRModule.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
