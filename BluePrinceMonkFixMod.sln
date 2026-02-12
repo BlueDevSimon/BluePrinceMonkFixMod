@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35828.75 d17.13
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BluePrinceMonkFixMod", "BluePrinceMonkFixMod\BluePrinceMonkFixMod.csproj", "{68A887C2-37BB-4F3E-9487-F850D17A358B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{68A887C2-37BB-4F3E-9487-F850D17A358B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{68A887C2-37BB-4F3E-9487-F850D17A358B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{68A887C2-37BB-4F3E-9487-F850D17A358B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{68A887C2-37BB-4F3E-9487-F850D17A358B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {AE19033B-CB7E-438E-BF6E-42CA56C8F837}
+	EndGlobalSection
+EndGlobal
