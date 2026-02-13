@@ -1,6 +1,8 @@
 ﻿using MelonLoader;
 using UnityEngine;
 using Il2Cpp;
+using Il2CppHutongGames.PlayMaker;
+using System.ComponentModel;
 
 [assembly: MelonInfo(typeof(BluePrinceMonkFixMod.MonkFix), "MonkFix", "1.0.0", "Blupe Rince")]
 [assembly: MelonGame("Dogubomb", "BLUE PRINCE")]
@@ -9,7 +11,7 @@ namespace BluePrinceMonkFixMod
 {
     public class MonkFix : MelonMod
     {
-        private const string HEADER = "[SleepRoomEditor]";
+        private const string HEADER = "[MonkFix]";
 
         public override void OnSceneWasLoaded(int buildIndex, string sceneName)
         {
@@ -21,11 +23,11 @@ namespace BluePrinceMonkFixMod
 
             try
             {
-                EditSleepRoomVariable();
+                AddMissingRoomsToIdTable();
             }
             catch (Exception ex)
             {
-                MelonLogger.Msg(System.ConsoleColor.Red, $"[SleepRoomEditor] Error: {ex}");
+                MelonLogger.Msg(System.ConsoleColor.Red, $"{HEADER} Error: {ex}");
             }
         }
 
@@ -37,7 +39,7 @@ namespace BluePrinceMonkFixMod
                 { "Throne of the Blue Prince", "Throne Room" },
             };
 
-        private void EditSleepRoomVariable()
+        private void AddMissingRoomsToIdTable()
         {
             const string go_RoomIDTable = "Room ID Table";
             var roomIDtable = GameObject.Find(go_RoomIDTable);
