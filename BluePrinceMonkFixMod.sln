@@ -1,9 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.13.35828.75 d17.13
+VisualStudioVersion = 17.13.35828.75
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BluePrinceMonkFixMod", "BluePrinceMonkFixMod\BluePrinceMonkFixMod.csproj", "{68A887C2-37BB-4F3E-9487-F850D17A358B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RedPoolMemoMod", "RedPoolMemoMod\RedPoolMemoMod.csproj", "{C3D9FE5D-CAC4-43CB-ABCA-764102B5481C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{68A887C2-37BB-4F3E-9487-F850D17A358B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{68A887C2-37BB-4F3E-9487-F850D17A358B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{68A887C2-37BB-4F3E-9487-F850D17A358B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C3D9FE5D-CAC4-43CB-ABCA-764102B5481C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C3D9FE5D-CAC4-43CB-ABCA-764102B5481C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C3D9FE5D-CAC4-43CB-ABCA-764102B5481C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C3D9FE5D-CAC4-43CB-ABCA-764102B5481C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
